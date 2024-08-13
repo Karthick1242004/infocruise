@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Grand+Hotel&family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Libre+Barcode+39+Text&display=swap');
+
+body{
+    font-family: 'Poppins';
+    margin: 0;
+    background-image: url('./components/images/back.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.event{
+    padding: 0% 5%;
+    margin-top: 8%;
+}
+.event1{
+    padding: 0% 5%;
+    margin-top: 8%;
+}
+.homepage{
+    color: black;
+    margin-top: 8%;
+}
+.homepagetxt{
+    margin-top: 0%;
+    width: 35%;
+    margin: auto;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: calc(0.5s * var(--i));
+}
+.homepage h1{
+    font-size: 140px;
+    text-align: center;
+    color: #363A43;
+    font-family: "DM Serif Display", serif;
+    font-weight: 600;
+    letter-spacing: 18px;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: calc(0.5s * var(--i));
+}
+.lk1{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    justify-content: center;
+    
+}
+.lk12{
+    display: flex;
+    align-items: center;
+    width: 170px;
+    height: 60px;
+    border-radius: 5px;
+    color: #D8F6EC;
+    background-color:#363A43;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 500ms;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: calc(0.5s * var(--i));
+    text-decoration: none;
+} 
+.lk11{
+    display: flex;
+    align-items: center;
+    width: 170px;
+    height: 60px;
+    border-radius: 5px;
+    color: #D8F6EC;
+    background-color:#363A43;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 500ms;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: calc(0.5s * var(--i));
+    text-decoration: none;
+}
+.lk12:hover{
+    transform: scale(1.1);
+    background-color:#FE495F;
+    color: #ffffff;
+}
+.lk11:hover{
+    transform: scale(1.1);
+    background-color:#FE495F;
+    color: #ffffff;
+}
+.homepage h2{
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "DM Serif Display", serif;
+    margin: auto;
+    letter-spacing: 18px;
+    background-color: #FE495F;
+    padding: 0% 1%;
+    width: fit-content;
+    border-radius: 4px;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: calc(0.5s * var(--i));
+}
+.kk{
+    margin-top: -6%;
+}
+.homepage p{
+    text-align: center;
+}
+.voice1{
+    margin-top: 10%;
+}
+.voice{
+    text-align: center;
+    width: 55%;
+    margin: auto;
+}
+.voice h2{
+    background-color: #FE495F;
+    width: fit-content;
+    padding: 1% 2%;
+    border-radius: 5px;
+    color: white;
+    font-size: 40px;
+    margin: auto;
+}
+.pos{
+    width: 100%;
+    margin-top: 10%;
+}
+.announce{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10%;
+}
+.announce1{
+    box-shadow: 14px 14px;
+    padding:5% 10%;
+    border: 3px solid black;
+    border-radius: 15px;
+    transition: 1000ms;
+}
+.announce1:hover{
+    background-color: #FFC330;
+    transform: translate(-20px, -20px);
+    box-shadow: 45px 45px;
+}
+.announce h1{
+    text-align: center;
+    background-color: #FE495F;
+    width: fit-content;
+    padding: 1% 2%;
+    border-radius: 5px;
+    color: white;
+    font-size: 40px;
+    margin: auto;
+}
+.announce p{
+    border-left: 3px solid #FE495F;
+    padding-left: 5px;
+    margin-top: 5%;
+}
+.shedule{
+    margin: auto;
+    text-align: center;
+}
+.shedule h1{
+    margin:auto;
+    padding: 0.1% 1%;
+    background-color: #FE495F;
+    color: white;
+    border-radius: 4px;
+    width: fit-content;
+}
+.shedule1{
+    margin-top: 10%;
+}
+.shedule p{
+    margin-top: 2%;
+}
+.footer{
+    margin-top: 5%;
+}
+@media screen and (max-width:756px)
+{
+    body{
+        overflow-x: hidden;
+    }
+   .voice{
+    width: 80%;
+    
+   }
+   .voice h2{
+    font-size: 25px;
+    margin-top: 45%;
+   }
+   .voice p{
+    text-align: justify;
+   }
+   .announce1{
+    margin-top: 25%;
+    box-shadow: 8px 8px;
+   }
+   .announce{
+    width: 35%;
+    margin: auto;
+   }
+   .announce h1{
+    font-size: 30px;
+   }
+   .shedule{
+    margin-top: 25%;
+    margin-bottom: 25%;
+   }
+   .announce1:hover{
+    background-color: #fed161;
+    transform: translate(-10px, -10px);
+    box-shadow: 20px 20px;
+   }
+   .homepage h1{
+    font-size: 60px;
+    letter-spacing: 0px;
+   }
+   .homepage{
+    margin-top: 26%;
+   }
+   .homepagetxt{
+    width: 80%;
+    margin-top: 12%;
+   }
+   .lk1{
+    margin-top: 8%;
+   }
+   .kk{
+    margin-top: 3%;
+   }
+   .lk11{
+     width: 145px;
+     height: 60px;
+   }
+   .lk12{
+    width: 145px;
+    height: 60px;
+   }
+}
+@media screen and (max-width:756px){
+    .homepage h1{
+        font-size: 50px;
+    }
+}
+@keyframes slideLeft {
+    0%{
+       transform: translateX(100px); 
+       opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideTop {
+    0%{
+       transform: translateY(100px); 
+       opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes slideBottom {
+    0%{
+       transform: translateY(-100px); 
+       opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes slideRight {
+    0%{
+       transform: translateX(-100px); 
+       opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
